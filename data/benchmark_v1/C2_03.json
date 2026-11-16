@@ -1,0 +1,16 @@
+{
+  "case_id": "C2_03",
+  "category": "C2_star_pvalue_conflict",
+  "is_consistent": false,
+  "caption": "Figure 4. Mutant vs Wild-Type (mean ± SD; ***).",
+  "main_text_claim": "The difference reached statistical significance (p = 0.015).",
+  "ground_truth": {
+    "star": "***",
+    "prose_p": 0.015
+  },
+  "is_raster_pdf": true,
+  "files": {
+    "pdf": "C2_03.pdf",
+    "png": "C2_03.png"
+  }
+}

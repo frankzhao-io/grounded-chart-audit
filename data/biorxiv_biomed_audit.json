@@ -1,0 +1,102 @@
+{
+  "source": "bioRxiv Open Access",
+  "vlm_model": "qwen2.5vl:7b",
+  "papers_targeted": 60,
+  "papers_downloaded": 54,
+  "papers_parsed": 54,
+  "total_figure_pairs": 201,
+  "track1_flagged_count": 3,
+  "verdict_counts": {
+    "confirmed_issue": 2,
+    "false_positive": 1
+  },
+  "flagged_cases": [
+    {
+      "paper_id": "10.64898_2026.09.30.754978v1",
+      "doi": "10.64898/2026.09.30.754978",
+      "category": "cancer biology",
+      "title": "Clonogenic survival and relative biological effectiveness of pancreatic ductal adenocarcinoma under pristine and spread-out Bragg peak irradiation with protons and carbon ions.",
+      "figure_num": "6",
+      "image_file": "10.64898_2026.09.30.754978v1_fig6_p14.png",
+      "track1_findings": [
+        "missing_error_bar_definition (error bars/band mentioned without SD/SEM/CI/IQR)"
+      ],
+      "caption": "Figure 6. RBE₁₀ as a function of LETD,1H or 12C for PANC-1 and BxPC-3 cells. Relative biological effectiveness at 10% surviving fraction (RBE₁₀) plotted against Monte Carlo–derived dose-averaged LET for ions of the same type as the primary beam (1H or 12C ions). Blue symbols represent 180.1 MeV proton sampling positions (entrance, proximal, peak, distal), and red symbols represent 352.4 MeV/u carbon ion sampling positions (entrance, proximal, pre-peak, peak). Purple and pink squares represent SOBP proton and carbon results, respectively. Error bars reflect propagated uncertainty from the fitted LQ parameter estimates used in the RBE calculation. Across the sampled pristine beam positions, RBE₁₀ increases with LETD for both ion species, with a steeper relationship observed for carbon ions at higher LET values. Alt text: Scatter plots show RBE₁₀ versus dose-averaged LETD for PANC-1 and BxPC-3 cells. RBE₁₀ increases gradually across pristine proton positions and more steeply across pristine carbon ion positions, with higher values in PANC-1 at the highest carbon ion LETD. Proton and carbon ion SOBP measurements are shown alongside the pristine-beam data.",
+      "vlm_audit": {
+        "image_dim_sent": [
+          1280,
+          925
+        ],
+        "elapsed_sec": 13.3,
+        "eval_count": 107,
+        "prompt_eval_count": 2187,
+        "vlm_result": {
+          "has_error_bars_or_bands": true,
+          "shaded_region_is_uncertainty": null,
+          "has_significance_markers": false,
+          "definition_deferred_to_appendix": false,
+          "track1_verdict": "confirmed_issue",
+          "reasoning": "The figure contains error bars, which are indicative of statistical uncertainty bands. The caption does not mention deferring the definition to an appendix or supplement, and the presence of error bars suggests that the statistical definition is missing."
+        }
+      }
+    },
+    {
+      "paper_id": "10.64898_2026.09.25.754065v1",
+      "doi": "10.64898/2026.09.25.754065",
+      "category": "neuroscience",
+      "title": "Task-specific preferences guide forward planning in sequential decision-making",
+      "figure_num": "3",
+      "image_file": "10.64898_2026.09.25.754065v1_fig3_p8.png",
+      "track1_findings": [
+        "missing_error_bar_definition (error bars/band mentioned without SD/SEM/CI/IQR)"
+      ],
+      "caption": "Figure 3: Relationship between preference score and DV. (A) Fitted probability of accepting an offer as a function of DV, separately for preference score of [-4, -2, -1, 0, 1, 2, 4], to highlight the modulation of preference scores on the influence of DV. Lines represent the mean of the posterior distribution; the shaded area is the 95% C.I. (B) Offer acceptance probability (y-axis) binned per DV (x-axis), for trials in which preference score is positive. (C)",
+      "vlm_audit": {
+        "image_dim_sent": [
+          1089,
+          1280
+        ],
+        "elapsed_sec": 4.63,
+        "eval_count": 128,
+        "prompt_eval_count": 2292,
+        "vlm_result": {
+          "has_error_bars_or_bands": true,
+          "shaded_region_is_uncertainty": true,
+          "has_significance_markers": false,
+          "definition_deferred_to_appendix": false,
+          "track1_verdict": "confirmed_issue",
+          "reasoning": "The figure shows shaded areas around the lines in panel A, which visually represent error bars or uncertainty bands. The caption explicitly refers to these as the 95% C.I., indicating they are statistical error bars. There are no significance markers present, and the caption does not defer the definition to an appendix or supplement."
+        }
+      }
+    },
+    {
+      "paper_id": "10.64898_2026.09.25.754349v1",
+      "doi": "10.64898/2026.09.25.754349",
+      "category": "neuroscience",
+      "title": "A Normative Model Reveals Functional Optimization of Synaptic Nano-Architecture",
+      "figure_num": "4",
+      "image_file": "10.64898_2026.09.25.754349v1_fig4_p15.png",
+      "track1_findings": [
+        "missing_error_bar_definition (error bars/band mentioned without SD/SEM/CI/IQR)"
+      ],
+      "caption": "Figure 4: Glutamate release from the AZ center optimizes postsynaptic current ampli- tude. A-C: Statistical model of the synapse. GluRs (black dots) are randomly located around a ring (red circle) whose radius (121nm) corresponds to the average observed distance between GluRs and the center of AZ. We studied the effect of a simulated fusion event at a distance d from the center of the AZ. D: At each point of the AZ, the color code (blue scale) corresponds to the mean postsynaptic current µe following glutamate release at this location. µe is maximized for a release close to the center. E: Example synapse. The positions of GluRs (blue) was held fixed to their observed values. The optimal position for a release site to optimize h (red) was compared to actual Unc13A positions (green). F: The average distance between actual and µe-optimal release sites was compared to the distance between actual release sites and the center of the AZ (Ctrl. 1), a random GluR cluster position (Ctrl. 2), and a random position on the AZ disk (Ctrl. 3). G: Same as D, but plotting the average activation time < tmax > as a function of the release location. It is minimized for a release close to the center. H: µe as a function of the distance d between the release site and the AZ center (dark line) vs. observed Unc13A density (blue line). Yellow line: average observed distance to center for Unc13As (shaded area: s.d.). I: Observed density of nearest neighbor distances between Unc13As across all observed AZs.",
+      "vlm_audit": {
+        "image_dim_sent": [
+          1198,
+          1280
+        ],
+        "elapsed_sec": 27158.2,
+        "eval_count": 118,
+        "prompt_eval_count": 2722,
+        "vlm_result": {
+          "has_error_bars_or_bands": false,
+          "shaded_region_is_uncertainty": null,
+          "has_significance_markers": false,
+          "definition_deferred_to_appendix": false,
+          "track1_verdict": "false_positive",
+          "reasoning": "The figure does not contain any statistical error bars, bands, or significance markers. The caption does not mention deferring the definition to an appendix or supplement, and the 'shaded region' in the figure appears to highlight a background zone rather than a statistical uncertainty band."
+        }
+      }
+    }
+  ]
+}

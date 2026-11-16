@@ -1,0 +1,16 @@
+{
+  "case_id": "C1_09",
+  "category": "C1_sample_size_mismatch",
+  "is_consistent": false,
+  "caption": "Figure 10. Comparison of Placebo and Active (n = 8 per group; mean ± SD).",
+  "main_text_claim": "Each cohort included 8 independent biological replicates (n = 8).",
+  "ground_truth": {
+    "claimed_n": 8,
+    "plotted_n": 5
+  },
+  "is_raster_pdf": false,
+  "files": {
+    "pdf": "C1_09.pdf",
+    "png": "C1_09.png"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "case_id": "C2_05",
+  "category": "C2_star_pvalue_conflict",
+  "is_consistent": false,
+  "caption": "Figure 6. Treatment vs Control (mean ± SD; ***).",
+  "main_text_claim": "Pairwise comparison yielded p = 0.041 between Control and Treatment.",
+  "ground_truth": {
+    "star": "***",
+    "prose_p": 0.041
+  },
+  "is_raster_pdf": false,
+  "files": {
+    "pdf": "C2_05.pdf",
+    "png": "C2_05.png"
+  }
+}

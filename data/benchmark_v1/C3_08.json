@@ -1,0 +1,16 @@
+{
+  "case_id": "C3_08",
+  "category": "C3_truncated_yaxis",
+  "is_consistent": false,
+  "caption": "Figure 9. Performance comparison showing substantial improvement of Mutant.",
+  "main_text_claim": "Mutant achieved 0.78 vs 0.75 for Wild-Type.",
+  "ground_truth": {
+    "y_min": 0.73,
+    "y_max": 0.795
+  },
+  "is_raster_pdf": false,
+  "files": {
+    "pdf": "C3_08.pdf",
+    "png": "C3_08.png"
+  }
+}

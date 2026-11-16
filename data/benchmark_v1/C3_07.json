@@ -1,0 +1,16 @@
+{
+  "case_id": "C3_07",
+  "category": "C3_truncated_yaxis",
+  "is_consistent": false,
+  "caption": "Figure 8. Performance comparison showing substantial improvement of Proposed.",
+  "main_text_claim": "Proposed achieved 87.50 vs 85.00 for Baseline.",
+  "ground_truth": {
+    "y_min": 83.0,
+    "y_max": 89.0
+  },
+  "is_raster_pdf": true,
+  "files": {
+    "pdf": "C3_07.pdf",
+    "png": "C3_07.png"
+  }
+}

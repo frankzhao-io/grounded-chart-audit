@@ -1,0 +1,16 @@
+{
+  "case_id": "C5_03",
+  "category": "C5_direction_inversion",
+  "is_consistent": false,
+  "caption": "Figure 4. Metric comparison between Wild-Type and Mutant (mean ± SD).",
+  "main_text_claim": "Compared with Mutant, Wild-Type showed a 40% reduction in the measured metric.",
+  "ground_truth": {
+    "plotted_higher": "Wild-Type",
+    "claimed_higher": "Mutant"
+  },
+  "is_raster_pdf": true,
+  "files": {
+    "pdf": "C5_03.pdf",
+    "png": "C5_03.png"
+  }
+}

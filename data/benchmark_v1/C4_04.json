@@ -1,0 +1,16 @@
+{
+  "case_id": "C4_04",
+  "category": "C4_concealed_distribution",
+  "is_consistent": false,
+  "caption": "Figure 5. Biomarker levels across Placebo and Active (bars indicate group averages with error bars).",
+  "main_text_claim": "Both Placebo and Active showed unimodal distributions centered near 5.0 ng/mL.",
+  "ground_truth": {
+    "missing_err_def": true,
+    "bimodal": true
+  },
+  "is_raster_pdf": false,
+  "files": {
+    "pdf": "C4_04.pdf",
+    "png": "C4_04.png"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "case_id": "C5_09",
+  "category": "C5_direction_inversion",
+  "is_consistent": false,
+  "caption": "Figure 10. Metric comparison between Placebo and Active (mean ± SD).",
+  "main_text_claim": "Placebo remained consistently lower relative to Active throughout evaluation.",
+  "ground_truth": {
+    "plotted_higher": "Placebo",
+    "claimed_higher": "Active"
+  },
+  "is_raster_pdf": false,
+  "files": {
+    "pdf": "C5_09.pdf",
+    "png": "C5_09.png"
+  }
+}

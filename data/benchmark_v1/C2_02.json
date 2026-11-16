@@ -1,0 +1,16 @@
+{
+  "case_id": "C2_02",
+  "category": "C2_star_pvalue_conflict",
+  "is_consistent": false,
+  "caption": "Figure 3. Proposed vs Baseline (mean ± SD; **).",
+  "main_text_claim": "Pairwise comparison yielded p = 0.039 between Baseline and Proposed.",
+  "ground_truth": {
+    "star": "**",
+    "prose_p": 0.039
+  },
+  "is_raster_pdf": false,
+  "files": {
+    "pdf": "C2_02.pdf",
+    "png": "C2_02.png"
+  }
+}

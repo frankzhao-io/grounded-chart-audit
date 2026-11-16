@@ -1,0 +1,16 @@
+{
+  "case_id": "C4_02",
+  "category": "C4_concealed_distribution",
+  "is_consistent": false,
+  "caption": "Figure 3. Biomarker levels across Baseline and Proposed (bars indicate group averages with error bars).",
+  "main_text_claim": "Both Baseline and Proposed showed unimodal distributions centered near 5.0 ng/mL.",
+  "ground_truth": {
+    "missing_err_def": true,
+    "bimodal": true
+  },
+  "is_raster_pdf": false,
+  "files": {
+    "pdf": "C4_02.pdf",
+    "png": "C4_02.png"
+  }
+}

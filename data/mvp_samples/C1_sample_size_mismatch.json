@@ -1,0 +1,15 @@
+{
+  "case_id": "C1_sample_size_mismatch",
+  "discrepancy_type": "sample_size_mismatch",
+  "is_consistent": false,
+  "caption": "Figure 2. Drug X effect on viability (n = 12 per group; mean ± SD).",
+  "main_text_claim": "Twelve independent samples (n = 12) were analyzed in each group.",
+  "ground_truth": {
+    "claimed_n": 12,
+    "plotted_points_per_group": 7
+  },
+  "files": {
+    "pdf": "C1_sample_size_mismatch.pdf",
+    "png": "C1_sample_size_mismatch.png"
+  }
+}

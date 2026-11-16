@@ -1,0 +1,12 @@
+{
+  "case_id": "C0_07",
+  "category": "C0_consistent",
+  "is_consistent": true,
+  "caption": "Figure 8. Proposed vs Baseline (n = 6 per group; mean ± SD; **p = 0.0041).",
+  "main_text_claim": "Across n = 6 replicates per group, Proposed outperformed Baseline (p = 0.0041).",
+  "is_raster_pdf": true,
+  "files": {
+    "pdf": "C0_07.pdf",
+    "png": "C0_07.png"
+  }
+}

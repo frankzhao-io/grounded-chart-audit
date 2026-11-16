@@ -1,0 +1,16 @@
+{
+  "case_id": "C3_04",
+  "category": "C3_truncated_yaxis",
+  "is_consistent": false,
+  "caption": "Figure 5. Performance comparison showing substantial improvement of Active.",
+  "main_text_claim": "Active achieved 0.83 vs 0.80 for Placebo.",
+  "ground_truth": {
+    "y_min": 0.78,
+    "y_max": 0.8450000000000001
+  },
+  "is_raster_pdf": false,
+  "files": {
+    "pdf": "C3_04.pdf",
+    "png": "C3_04.png"
+  }
+}

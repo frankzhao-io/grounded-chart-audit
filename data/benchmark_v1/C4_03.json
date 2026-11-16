@@ -1,0 +1,16 @@
+{
+  "case_id": "C4_03",
+  "category": "C4_concealed_distribution",
+  "is_consistent": false,
+  "caption": "Figure 4. Summary of Wild-Type vs Mutant expression (error bars represent variability).",
+  "main_text_claim": "Both Wild-Type and Mutant showed unimodal distributions centered near 5.0 ng/mL.",
+  "ground_truth": {
+    "missing_err_def": true,
+    "bimodal": true
+  },
+  "is_raster_pdf": true,
+  "files": {
+    "pdf": "C4_03.pdf",
+    "png": "C4_03.png"
+  }
+}

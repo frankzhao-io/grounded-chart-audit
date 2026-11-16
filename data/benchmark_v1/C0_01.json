@@ -1,0 +1,12 @@
+{
+  "case_id": "C0_01",
+  "category": "C0_consistent",
+  "is_consistent": true,
+  "caption": "Figure 2. Drug X vs Vehicle (n = 8 per group; mean ± SD; **p = 0.0041).",
+  "main_text_claim": "Across n = 8 replicates per group, Drug X outperformed Vehicle (p = 0.0041).",
+  "is_raster_pdf": false,
+  "files": {
+    "pdf": "C0_01.pdf",
+    "png": "C0_01.png"
+  }
+}

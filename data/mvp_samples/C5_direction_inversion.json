@@ -1,0 +1,15 @@
+{
+  "case_id": "C5_direction_inversion",
+  "discrepancy_type": "effect_direction_inversion",
+  "is_consistent": false,
+  "caption": "Figure 6. Latency comparison between Group A and Group B (mean ± SD).",
+  "main_text_claim": "Group B exhibited substantially higher latency than Group A across all runs.",
+  "ground_truth": {
+    "mean_A": 8.35,
+    "mean_B": 5.41
+  },
+  "files": {
+    "pdf": "C5_direction_inversion.pdf",
+    "png": "C5_direction_inversion.png"
+  }
+}

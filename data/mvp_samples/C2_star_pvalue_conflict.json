@@ -1,0 +1,15 @@
+{
+  "case_id": "C2_star_pvalue_conflict",
+  "discrepancy_type": "significance_star_pvalue_conflict",
+  "is_consistent": false,
+  "caption": "Figure 3. Score comparison between Baseline and Proposed (mean ± SD; ***p < 0.001).",
+  "main_text_claim": "The proposed method achieved a marginally significant gain over baseline (p = 0.042).",
+  "ground_truth": {
+    "figure_star": "*** (<0.001)",
+    "text_p_value": 0.042
+  },
+  "files": {
+    "pdf": "C2_star_pvalue_conflict.pdf",
+    "png": "C2_star_pvalue_conflict.png"
+  }
+}

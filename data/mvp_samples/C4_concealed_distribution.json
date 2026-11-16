@@ -1,0 +1,15 @@
+{
+  "case_id": "C4_concealed_distribution",
+  "discrepancy_type": "concealed_bimodal_and_missing_err_def",
+  "is_consistent": false,
+  "caption": "Figure 5. Biomarker levels in Group A and Group B (bars show mean with error bars).",
+  "main_text_claim": "Group A and Group B exhibited identical biomarker distributions around 5.0 ng/mL.",
+  "ground_truth": {
+    "error_bar_definition_missing": true,
+    "group_b_bimodal": true
+  },
+  "files": {
+    "pdf": "C4_concealed_distribution.pdf",
+    "png": "C4_concealed_distribution.png"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "case_id": "C0_consistent_control",
+  "discrepancy_type": "none",
+  "is_consistent": true,
+  "caption": "Figure 1. Treatment increases expression (n = 10 per group; mean ± SD; **p = 0.0021, two-sided t-test).",
+  "main_text_claim": "Across n = 10 biological replicates per group, treatment elevated expression from 5.0 to 7.2 a.u. (p = 0.0021).",
+  "ground_truth": {
+    "n_control": 10,
+    "n_treatment": 10,
+    "star": "**",
+    "p_value": 0.0021,
+    "y_min": 0.0
+  },
+  "files": {
+    "pdf": "C0_consistent_control.pdf",
+    "png": "C0_consistent_control.png"
+  }
+}

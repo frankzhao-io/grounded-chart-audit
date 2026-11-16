@@ -1,0 +1,12 @@
+{
+  "case_id": "C0_03",
+  "category": "C0_consistent",
+  "is_consistent": true,
+  "caption": "Figure 4. Mutant vs Wild-Type (n = 6 per group; mean ± SD; *p = 0.028).",
+  "main_text_claim": "Across n = 6 replicates per group, Mutant outperformed Wild-Type (p = 0.028).",
+  "is_raster_pdf": true,
+  "files": {
+    "pdf": "C0_03.pdf",
+    "png": "C0_03.png"
+  }
+}

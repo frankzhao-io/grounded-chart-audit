@@ -1,0 +1,16 @@
+{
+  "case_id": "C4_07",
+  "category": "C4_concealed_distribution",
+  "is_consistent": false,
+  "caption": "Figure 8. Summary of Baseline vs Proposed expression (error bars represent variability).",
+  "main_text_claim": "Both Baseline and Proposed showed unimodal distributions centered near 5.0 ng/mL.",
+  "ground_truth": {
+    "missing_err_def": true,
+    "bimodal": true
+  },
+  "is_raster_pdf": true,
+  "files": {
+    "pdf": "C4_07.pdf",
+    "png": "C4_07.png"
+  }
+}

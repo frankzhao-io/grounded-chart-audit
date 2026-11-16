@@ -1,0 +1,16 @@
+{
+  "case_id": "C1_00",
+  "category": "C1_sample_size_mismatch",
+  "is_consistent": false,
+  "caption": "Figure 1. Comparison of Control and Treatment (n = 10 per group; mean ± SD).",
+  "main_text_claim": "Each cohort included 10 independent biological replicates (n = 10).",
+  "ground_truth": {
+    "claimed_n": 10,
+    "plotted_n": 5
+  },
+  "is_raster_pdf": false,
+  "files": {
+    "pdf": "C1_00.pdf",
+    "png": "C1_00.png"
+  }
+}

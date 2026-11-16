@@ -1,0 +1,50 @@
+{
+  "model": "qwen2.5vl:7b",
+  "benchmark_n": 60,
+  "timing": {
+    "pure_vlm_calls": 60,
+    "pure_vlm_total_sec": 271.1,
+    "pure_vlm_avg_sec": 4.52,
+    "grounded_hybrid_vlm_calls": 28,
+    "grounded_hybrid_total_sec": 94.89,
+    "grounded_hybrid_avg_sec": 3.39
+  },
+  "track2_pure_vlm": {
+    "total": 60,
+    "accuracy": 0.8333,
+    "precision": 0.8333,
+    "recall": 1.0,
+    "f1": 0.9091,
+    "by_category": {
+      "C0_consistent": "0/10 (0.0%)",
+      "C1_sample_size_mismatch": "10/10 (100.0%)",
+      "C2_star_pvalue_conflict": "10/10 (100.0%)",
+      "C3_truncated_yaxis": "10/10 (100.0%)",
+      "C4_concealed_distribution": "10/10 (100.0%)",
+      "C5_direction_inversion": "10/10 (100.0%)"
+    },
+    "by_pdf_format": {
+      "raster_pdf": "11/13 (84.6%)",
+      "vector_pdf": "39/47 (83.0%)"
+    }
+  },
+  "grounded_hybrid": {
+    "total": 60,
+    "accuracy": 0.9,
+    "precision": 0.9583,
+    "recall": 0.92,
+    "f1": 0.9388,
+    "by_category": {
+      "C0_consistent": "8/10 (80.0%)",
+      "C1_sample_size_mismatch": "7/10 (70.0%)",
+      "C2_star_pvalue_conflict": "10/10 (100.0%)",
+      "C3_truncated_yaxis": "9/10 (90.0%)",
+      "C4_concealed_distribution": "10/10 (100.0%)",
+      "C5_direction_inversion": "10/10 (100.0%)"
+    },
+    "by_pdf_format": {
+      "raster_pdf": "7/13 (53.8%)",
+      "vector_pdf": "47/47 (100.0%)"
+    }
+  }
+}

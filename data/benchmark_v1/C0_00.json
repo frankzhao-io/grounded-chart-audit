@@ -1,0 +1,12 @@
+{
+  "case_id": "C0_00",
+  "category": "C0_consistent",
+  "is_consistent": true,
+  "caption": "Figure 1. Treatment vs Control (n = 11 per group; mean ± SD; *p = 0.028).",
+  "main_text_claim": "Across n = 11 replicates per group, Treatment outperformed Control (p = 0.028).",
+  "is_raster_pdf": false,
+  "files": {
+    "pdf": "C0_00.pdf",
+    "png": "C0_00.png"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "case_id": "C2_01",
+  "category": "C2_star_pvalue_conflict",
+  "is_consistent": false,
+  "caption": "Figure 2. Drug X vs Vehicle (mean ± SD; ***).",
+  "main_text_claim": "A significant gain was observed with a significance level of 0.023.",
+  "ground_truth": {
+    "star": "***",
+    "prose_p": 0.023
+  },
+  "is_raster_pdf": false,
+  "files": {
+    "pdf": "C2_01.pdf",
+    "png": "C2_01.png"
+  }
+}

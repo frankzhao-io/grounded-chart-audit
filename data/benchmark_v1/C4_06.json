@@ -1,0 +1,16 @@
+{
+  "case_id": "C4_06",
+  "category": "C4_concealed_distribution",
+  "is_consistent": false,
+  "caption": "Figure 7. Biomarker levels across Vehicle and Drug X (bars indicate group averages with error bars).",
+  "main_text_claim": "Both Vehicle and Drug X showed unimodal distributions centered near 5.0 ng/mL.",
+  "ground_truth": {
+    "missing_err_def": true,
+    "bimodal": true
+  },
+  "is_raster_pdf": false,
+  "files": {
+    "pdf": "C4_06.pdf",
+    "png": "C4_06.png"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "case_id": "C5_07",
+  "category": "C5_direction_inversion",
+  "is_consistent": false,
+  "caption": "Figure 8. Metric comparison between Baseline and Proposed (mean ± SD).",
+  "main_text_claim": "Compared with Proposed, Baseline showed a 40% reduction in the measured metric.",
+  "ground_truth": {
+    "plotted_higher": "Baseline",
+    "claimed_higher": "Proposed"
+  },
+  "is_raster_pdf": true,
+  "files": {
+    "pdf": "C5_07.pdf",
+    "png": "C5_07.png"
+  }
+}

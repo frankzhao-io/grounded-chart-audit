@@ -1,0 +1,16 @@
+{
+  "case_id": "C2_08",
+  "category": "C2_star_pvalue_conflict",
+  "is_consistent": false,
+  "caption": "Figure 9. Mutant vs Wild-Type (mean ± SD; ***).",
+  "main_text_claim": "Pairwise comparison yielded p = 0.015 between Wild-Type and Mutant.",
+  "ground_truth": {
+    "star": "***",
+    "prose_p": 0.015
+  },
+  "is_raster_pdf": false,
+  "files": {
+    "pdf": "C2_08.pdf",
+    "png": "C2_08.png"
+  }
+}

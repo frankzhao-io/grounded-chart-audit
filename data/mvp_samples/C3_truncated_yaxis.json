@@ -1,0 +1,17 @@
+{
+  "case_id": "C3_truncated_yaxis",
+  "discrepancy_type": "truncated_bar_yaxis",
+  "is_consistent": false,
+  "caption": "Figure 4. AUROC comparison showing dramatic improvement of Ours over Model A.",
+  "main_text_claim": "Our model achieves an AUROC of 0.83 compared to 0.80 for Model A.",
+  "ground_truth": {
+    "y_min": 0.78,
+    "y_max": 0.84,
+    "visual_ratio": 2.5,
+    "actual_ratio": 1.0375
+  },
+  "files": {
+    "pdf": "C3_truncated_yaxis.pdf",
+    "png": "C3_truncated_yaxis.png"
+  }
+}

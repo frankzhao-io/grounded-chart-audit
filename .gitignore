@@ -1,0 +1,14 @@
+.env
+*.pyc
+__pycache__/
+.pytest_cache/
+
+# Downloaded third-party papers & large extracted image caches (re-fetchable via scripts)
+data/real_papers/
+data/real_papers_scale/
+data/real_paper_pairs/
+data/real_paper_pairs_scale/
+data/biorxiv_pdfs/
+data/biorxiv_pairs/
+data/epmc_pdfs/
+data/epmc_pairs/

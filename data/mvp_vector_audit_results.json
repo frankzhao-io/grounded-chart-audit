@@ -1,0 +1,171 @@
+[
+  {
+    "case_id": "C0_consistent_control",
+    "ground_truth_inconsistent": false,
+    "predicted_inconsistent": false,
+    "correct": true,
+    "findings": [],
+    "bars": [
+      {
+        "x0": 49.467899322509766,
+        "x1": 112.4678955078125,
+        "xc": 80.96789741516113,
+        "y0": 91.17659759521484,
+        "y1": 163.18511962890625,
+        "height": 72.0085220336914,
+        "label": "Control",
+        "dot_count": 10
+      },
+      {
+        "x0": 164.0133514404297,
+        "x1": 227.0133514404297,
+        "xc": 195.5133514404297,
+        "y0": 49.91542053222656,
+        "y1": 163.18511962890625,
+        "height": 113.26969909667969,
+        "label": "Treatment",
+        "dot_count": 10
+      }
+    ],
+    "total_dots": 20
+  },
+  {
+    "case_id": "C1_sample_size_mismatch",
+    "ground_truth_inconsistent": true,
+    "predicted_inconsistent": true,
+    "correct": true,
+    "findings": [
+      "sample_size_mismatch (bar='Vehicle' has 7 vector dots, prose claims n=12)"
+    ],
+    "bars": [
+      {
+        "x0": 49.467899322509766,
+        "x1": 112.4678955078125,
+        "xc": 80.96789741516113,
+        "y0": 88.51995086669922,
+        "y1": 166.2288818359375,
+        "height": 77.70893096923828,
+        "label": "Vehicle",
+        "dot_count": 7
+      },
+      {
+        "x0": 164.0133514404297,
+        "x1": 227.0133514404297,
+        "xc": 195.5133514404297,
+        "y0": 58.917144775390625,
+        "y1": 166.2288818359375,
+        "height": 107.31173706054688,
+        "label": "Drug X",
+        "dot_count": 7
+      }
+    ],
+    "total_dots": 14
+  },
+  {
+    "case_id": "C2_star_pvalue_conflict",
+    "ground_truth_inconsistent": true,
+    "predicted_inconsistent": true,
+    "correct": true,
+    "findings": [
+      "star_pvalue_conflict (pdf_star='***' implies p<0.001, prose says p=0.042)"
+    ],
+    "bars": [
+      {
+        "x0": 49.467899322509766,
+        "x1": 112.4678955078125,
+        "xc": 80.96789741516113,
+        "y0": 78.3453369140625,
+        "y1": 162.4320068359375,
+        "height": 84.086669921875,
+        "label": "Baseline",
+        "dot_count": 0
+      },
+      {
+        "x0": 164.0133514404297,
+        "x1": 227.0133514404297,
+        "xc": 195.5133514404297,
+        "y0": 58.77568054199219,
+        "y1": 162.4320068359375,
+        "height": 103.65632629394531,
+        "label": "Proposed",
+        "dot_count": 0
+      }
+    ],
+    "total_dots": 0
+  },
+  {
+    "case_id": "C3_truncated_yaxis",
+    "ground_truth_inconsistent": true,
+    "predicted_inconsistent": true,
+    "correct": true,
+    "findings": [
+      "truncated_yaxis_suspected (min_tick=0.78)"
+    ],
+    "bars": [],
+    "total_dots": 0
+  },
+  {
+    "case_id": "C4_concealed_distribution",
+    "ground_truth_inconsistent": true,
+    "predicted_inconsistent": true,
+    "correct": true,
+    "findings": [
+      "missing_error_bar_definition (SD/SEM/CI not specified)"
+    ],
+    "bars": [
+      {
+        "x0": 43.108524322509766,
+        "x1": 106.1085205078125,
+        "xc": 74.60852241516113,
+        "y0": 71.8842544555664,
+        "y1": 166.2288818359375,
+        "height": 94.3446273803711,
+        "label": "Group A",
+        "dot_count": 0
+      },
+      {
+        "x0": 157.6539764404297,
+        "x1": 220.6539764404297,
+        "xc": 189.1539764404297,
+        "y0": 71.12572479248047,
+        "y1": 166.2288818359375,
+        "height": 95.10315704345703,
+        "label": "Group B",
+        "dot_count": 0
+      }
+    ],
+    "total_dots": 0
+  },
+  {
+    "case_id": "C5_direction_inversion",
+    "ground_truth_inconsistent": true,
+    "predicted_inconsistent": true,
+    "correct": true,
+    "findings": [
+      "direction_inversion (prose claims 'Group B' > 'Group A', but bar heights are 76.4 vs 117.9)"
+    ],
+    "bars": [
+      {
+        "x0": 49.467899322509766,
+        "x1": 112.4678955078125,
+        "xc": 80.96789741516113,
+        "y0": 44.5611572265625,
+        "y1": 162.4320068359375,
+        "height": 117.870849609375,
+        "label": "Group A",
+        "dot_count": 0
+      },
+      {
+        "x0": 164.0133514404297,
+        "x1": 227.0133514404297,
+        "xc": 195.5133514404297,
+        "y0": 86.03197479248047,
+        "y1": 162.4320068359375,
+        "height": 76.40003204345703,
+        "label": "Group B",
+        "dot_count": 0
+      }
+    ],
+    "total_dots": 0
+  }
+]

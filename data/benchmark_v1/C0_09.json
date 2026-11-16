@@ -1,0 +1,12 @@
+{
+  "case_id": "C0_09",
+  "category": "C0_consistent",
+  "is_consistent": true,
+  "caption": "Figure 10. Active vs Placebo (n = 6 per group; mean ± SD; *p = 0.028).",
+  "main_text_claim": "Across n = 6 replicates per group, Active outperformed Placebo (p = 0.028).",
+  "is_raster_pdf": false,
+  "files": {
+    "pdf": "C0_09.pdf",
+    "png": "C0_09.png"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "case_id": "C5_08",
+  "category": "C5_direction_inversion",
+  "is_consistent": false,
+  "caption": "Figure 9. Metric comparison between Wild-Type and Mutant (mean ± SD).",
+  "main_text_claim": "Mutant exhibited substantially higher values than Wild-Type across all runs.",
+  "ground_truth": {
+    "plotted_higher": "Wild-Type",
+    "claimed_higher": "Mutant"
+  },
+  "is_raster_pdf": false,
+  "files": {
+    "pdf": "C5_08.pdf",
+    "png": "C5_08.png"
+  }
+}

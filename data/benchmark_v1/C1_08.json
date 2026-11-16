@@ -1,0 +1,16 @@
+{
+  "case_id": "C1_08",
+  "category": "C1_sample_size_mismatch",
+  "is_consistent": false,
+  "caption": "Figure 9. Comparison of Wild-Type and Mutant (n = 13 per group; mean ± SD).",
+  "main_text_claim": "Each cohort included 13 independent biological replicates (n = 13).",
+  "ground_truth": {
+    "claimed_n": 13,
+    "plotted_n": 7
+  },
+  "is_raster_pdf": true,
+  "files": {
+    "pdf": "C1_08.pdf",
+    "png": "C1_08.png"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "case_id": "C2_04",
+  "category": "C2_star_pvalue_conflict",
+  "is_consistent": false,
+  "caption": "Figure 5. Active vs Placebo (mean ± SD; **).",
+  "main_text_claim": "A significant gain was observed with a significance level of 0.048.",
+  "ground_truth": {
+    "star": "**",
+    "prose_p": 0.048
+  },
+  "is_raster_pdf": false,
+  "files": {
+    "pdf": "C2_04.pdf",
+    "png": "C2_04.png"
+  }
+}

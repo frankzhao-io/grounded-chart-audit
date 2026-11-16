@@ -1,0 +1,16 @@
+{
+  "case_id": "C4_09",
+  "category": "C4_concealed_distribution",
+  "is_consistent": false,
+  "caption": "Figure 10. Summary of Placebo vs Active expression (error bars represent variability).",
+  "main_text_claim": "Both Placebo and Active showed unimodal distributions centered near 5.0 ng/mL.",
+  "ground_truth": {
+    "missing_err_def": true,
+    "bimodal": true
+  },
+  "is_raster_pdf": false,
+  "files": {
+    "pdf": "C4_09.pdf",
+    "png": "C4_09.png"
+  }
+}

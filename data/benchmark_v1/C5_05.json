@@ -1,0 +1,16 @@
+{
+  "case_id": "C5_05",
+  "category": "C5_direction_inversion",
+  "is_consistent": false,
+  "caption": "Figure 6. Metric comparison between Control and Treatment (mean ± SD).",
+  "main_text_claim": "Control remained consistently lower relative to Treatment throughout evaluation.",
+  "ground_truth": {
+    "plotted_higher": "Control",
+    "claimed_higher": "Treatment"
+  },
+  "is_raster_pdf": false,
+  "files": {
+    "pdf": "C5_05.pdf",
+    "png": "C5_05.png"
+  }
+}

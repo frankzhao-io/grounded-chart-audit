@@ -1,0 +1,96 @@
+{
+  "model": "gemini-3.5-flash-lite",
+  "track1_rule_only": {
+    "total_cases": 60,
+    "tp": 32,
+    "fp": 0,
+    "tn": 10,
+    "fn": 18,
+    "accuracy": 0.7,
+    "precision": 1.0,
+    "recall": 0.64,
+    "f1": 0.7805,
+    "by_category": {
+      "C0_consistent": {
+        "correct": 10,
+        "total": 10,
+        "accuracy": 1.0
+      },
+      "C1_sample_size_mismatch": {
+        "correct": 7,
+        "total": 10,
+        "accuracy": 0.7
+      },
+      "C2_star_pvalue_conflict": {
+        "correct": 6,
+        "total": 10,
+        "accuracy": 0.6
+      },
+      "C3_truncated_yaxis": {
+        "correct": 8,
+        "total": 10,
+        "accuracy": 0.8
+      },
+      "C4_concealed_distribution": {
+        "correct": 10,
+        "total": 10,
+        "accuracy": 1.0
+      },
+      "C5_direction_inversion": {
+        "correct": 1,
+        "total": 10,
+        "accuracy": 0.1
+      }
+    },
+    "by_pdf_format": {
+      "raster_pdf": {
+        "correct": 4,
+        "total": 13,
+        "accuracy": 0.3077
+      },
+      "vector_pdf": {
+        "correct": 38,
+        "total": 47,
+        "accuracy": 0.8085
+      }
+    }
+  },
+  "track2_pure_vlm": {
+    "total": 60,
+    "accuracy": 0.8833,
+    "precision": 0.8772,
+    "recall": 1.0,
+    "f1": 0.9346,
+    "by_category": {
+      "C0_consistent": "3/10 (30.0%)",
+      "C1_sample_size_mismatch": "10/10 (100.0%)",
+      "C2_star_pvalue_conflict": "10/10 (100.0%)",
+      "C3_truncated_yaxis": "10/10 (100.0%)",
+      "C4_concealed_distribution": "10/10 (100.0%)",
+      "C5_direction_inversion": "10/10 (100.0%)"
+    },
+    "by_pdf_format": {
+      "raster_pdf": "13/13 (100.0%)",
+      "vector_pdf": "40/47 (85.1%)"
+    }
+  },
+  "grounded_hybrid": {
+    "total": 60,
+    "accuracy": 0.9833,
+    "precision": 1.0,
+    "recall": 0.98,
+    "f1": 0.9899,
+    "by_category": {
+      "C0_consistent": "10/10 (100.0%)",
+      "C1_sample_size_mismatch": "10/10 (100.0%)",
+      "C2_star_pvalue_conflict": "10/10 (100.0%)",
+      "C3_truncated_yaxis": "9/10 (90.0%)",
+      "C4_concealed_distribution": "10/10 (100.0%)",
+      "C5_direction_inversion": "10/10 (100.0%)"
+    },
+    "by_pdf_format": {
+      "raster_pdf": "12/13 (92.3%)",
+      "vector_pdf": "47/47 (100.0%)"
+    }
+  }
+}

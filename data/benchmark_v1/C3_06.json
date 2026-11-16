@@ -1,0 +1,16 @@
+{
+  "case_id": "C3_06",
+  "category": "C3_truncated_yaxis",
+  "is_consistent": false,
+  "caption": "Figure 7. Performance comparison showing substantial improvement of Drug X.",
+  "main_text_claim": "Drug X achieved 87.50 vs 85.00 for Vehicle.",
+  "ground_truth": {
+    "y_min": 83.0,
+    "y_max": 89.0
+  },
+  "is_raster_pdf": false,
+  "files": {
+    "pdf": "C3_06.pdf",
+    "png": "C3_06.png"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "case_id": "C3_05",
+  "category": "C3_truncated_yaxis",
+  "is_consistent": false,
+  "caption": "Figure 6. Performance comparison showing substantial improvement of Treatment.",
+  "main_text_claim": "Treatment achieved 87.50 vs 85.00 for Control.",
+  "ground_truth": {
+    "y_min": 83.0,
+    "y_max": 89.0
+  },
+  "is_raster_pdf": false,
+  "files": {
+    "pdf": "C3_05.pdf",
+    "png": "C3_05.png"
+  }
+}

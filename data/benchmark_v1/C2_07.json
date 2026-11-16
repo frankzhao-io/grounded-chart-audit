@@ -1,0 +1,16 @@
+{
+  "case_id": "C2_07",
+  "category": "C2_star_pvalue_conflict",
+  "is_consistent": false,
+  "caption": "Figure 8. Proposed vs Baseline (mean ± SD; **).",
+  "main_text_claim": "A significant gain was observed with a significance level of 0.039.",
+  "ground_truth": {
+    "star": "**",
+    "prose_p": 0.039
+  },
+  "is_raster_pdf": true,
+  "files": {
+    "pdf": "C2_07.pdf",
+    "png": "C2_07.png"
+  }
+}

@@ -1,0 +1,1582 @@
+{
+  "summary": {
+    "total_cases": 60,
+    "tp": 32,
+    "fp": 0,
+    "tn": 10,
+    "fn": 18,
+    "accuracy": 0.7,
+    "precision": 1.0,
+    "recall": 0.64,
+    "f1": 0.7805,
+    "by_category": {
+      "C0_consistent": {
+        "correct": 10,
+        "total": 10,
+        "accuracy": 1.0
+      },
+      "C1_sample_size_mismatch": {
+        "correct": 7,
+        "total": 10,
+        "accuracy": 0.7
+      },
+      "C2_star_pvalue_conflict": {
+        "correct": 6,
+        "total": 10,
+        "accuracy": 0.6
+      },
+      "C3_truncated_yaxis": {
+        "correct": 8,
+        "total": 10,
+        "accuracy": 0.8
+      },
+      "C4_concealed_distribution": {
+        "correct": 10,
+        "total": 10,
+        "accuracy": 1.0
+      },
+      "C5_direction_inversion": {
+        "correct": 1,
+        "total": 10,
+        "accuracy": 0.1
+      }
+    },
+    "by_pdf_format": {
+      "raster_pdf": {
+        "correct": 4,
+        "total": 13,
+        "accuracy": 0.3077
+      },
+      "vector_pdf": {
+        "correct": 38,
+        "total": 47,
+        "accuracy": 0.8085
+      }
+    }
+  },
+  "records": [
+    {
+      "case_id": "C0_00",
+      "ground_truth_inconsistent": false,
+      "predicted_inconsistent": false,
+      "correct": true,
+      "findings": [],
+      "bars": [
+        {
+          "x0": 49.21426010131836,
+          "x1": 110.41426086425781,
+          "xc": 79.81426048278809,
+          "y0": 83.64605712890625,
+          "y1": 156.88800048828125,
+          "height": 73.241943359375,
+          "label": "Control",
+          "dot_count": 11
+        },
+        {
+          "x0": 160.4869842529297,
+          "x1": 221.68699645996094,
+          "xc": 191.0869903564453,
+          "y0": 50.28453063964844,
+          "y1": 156.88800048828125,
+          "height": 106.60346984863281,
+          "label": "Treatment",
+          "dot_count": 11
+        }
+      ],
+      "total_dots": 22,
+      "category": "C0_consistent",
+      "is_raster_pdf": false
+    },
+    {
+      "case_id": "C0_01",
+      "ground_truth_inconsistent": false,
+      "predicted_inconsistent": false,
+      "correct": true,
+      "findings": [],
+      "bars": [
+        {
+          "x0": 66.6771240234375,
+          "x1": 109.36412811279297,
+          "xc": 88.02062606811523,
+          "y0": 81.44254302978516,
+          "y1": 96.07124328613281,
+          "height": 14.628700256347656,
+          "label": "",
+          "dot_count": 8
+        },
+        {
+          "x0": 161.53712463378906,
+          "x1": 204.22412109375,
+          "xc": 182.88062286376953,
+          "y0": 47.8499755859375,
+          "y1": 69.76493072509766,
+          "height": 21.914955139160156,
+          "label": "",
+          "dot_count": 8
+        }
+      ],
+      "total_dots": 16,
+      "category": "C0_consistent",
+      "is_raster_pdf": false
+    },
+    {
+      "case_id": "C0_02",
+      "ground_truth_inconsistent": false,
+      "predicted_inconsistent": false,
+      "correct": true,
+      "findings": [],
+      "bars": [
+        {
+          "x0": 49.21426010131836,
+          "x1": 110.41426086425781,
+          "xc": 79.81426048278809,
+          "y0": 91.99972534179688,
+          "y1": 156.88800048828125,
+          "height": 64.88827514648438,
+          "label": "Baseline",
+          "dot_count": 8
+        },
+        {
+          "x0": 160.4869842529297,
+          "x1": 221.68699645996094,
+          "xc": 191.0869903564453,
+          "y0": 57.76313781738281,
+          "y1": 156.88800048828125,
+          "height": 99.12486267089844,
+          "label": "Proposed",
+          "dot_count": 8
+        }
+      ],
+      "total_dots": 16,
+      "category": "C0_consistent",
+      "is_raster_pdf": false
+    },
+    {
+      "case_id": "C0_03",
+      "ground_truth_inconsistent": false,
+      "predicted_inconsistent": false,
+      "correct": true,
+      "findings": [],
+      "bars": [],
+      "total_dots": 0,
+      "category": "C0_consistent",
+      "is_raster_pdf": true
+    },
+    {
+      "case_id": "C0_04",
+      "ground_truth_inconsistent": false,
+      "predicted_inconsistent": false,
+      "correct": true,
+      "findings": [],
+      "bars": [
+        {
+          "x0": 49.21426010131836,
+          "x1": 110.41426086425781,
+          "xc": 79.81426048278809,
+          "y0": 89.44535064697266,
+          "y1": 156.88800048828125,
+          "height": 67.4426498413086,
+          "label": "Placebo",
+          "dot_count": 9
+        },
+        {
+          "x0": 160.4869842529297,
+          "x1": 221.68699645996094,
+          "xc": 191.0869903564453,
+          "y0": 54.623199462890625,
+          "y1": 156.88800048828125,
+          "height": 102.26480102539062,
+          "label": "Active",
+          "dot_count": 9
+        }
+      ],
+      "total_dots": 18,
+      "category": "C0_consistent",
+      "is_raster_pdf": false
+    },
+    {
+      "case_id": "C0_05",
+      "ground_truth_inconsistent": false,
+      "predicted_inconsistent": false,
+      "correct": true,
+      "findings": [],
+      "bars": [
+        {
+          "x0": 161.53712463378906,
+          "x1": 204.22412109375,
+          "xc": 182.88062286376953,
+          "y0": 52.68882751464844,
+          "y1": 64.21197509765625,
+          "height": 11.523147583007812,
+          "label": "",
+          "dot_count": 8
+        }
+      ],
+      "total_dots": 16,
+      "category": "C0_consistent",
+      "is_raster_pdf": false
+    },
+    {
+      "case_id": "C0_06",
+      "ground_truth_inconsistent": false,
+      "predicted_inconsistent": false,
+      "correct": true,
+      "findings": [],
+      "bars": [
+        {
+          "x0": 49.21426010131836,
+          "x1": 110.41426086425781,
+          "xc": 79.81426048278809,
+          "y0": 93.12924194335938,
+          "y1": 156.88800048828125,
+          "height": 63.758758544921875,
+          "label": "Vehicle",
+          "dot_count": 10
+        },
+        {
+          "x0": 160.4869842529297,
+          "x1": 221.68699645996094,
+          "xc": 191.0869903564453,
+          "y0": 56.9556884765625,
+          "y1": 156.88800048828125,
+          "height": 99.93231201171875,
+          "label": "Drug X",
+          "dot_count": 10
+        }
+      ],
+      "total_dots": 20,
+      "category": "C0_consistent",
+      "is_raster_pdf": false
+    },
+    {
+      "case_id": "C0_07",
+      "ground_truth_inconsistent": false,
+      "predicted_inconsistent": false,
+      "correct": true,
+      "findings": [],
+      "bars": [],
+      "total_dots": 0,
+      "category": "C0_consistent",
+      "is_raster_pdf": true
+    },
+    {
+      "case_id": "C0_08",
+      "ground_truth_inconsistent": false,
+      "predicted_inconsistent": false,
+      "correct": true,
+      "findings": [],
+      "bars": [
+        {
+          "x0": 49.21426010131836,
+          "x1": 110.41426086425781,
+          "xc": 79.81426048278809,
+          "y0": 90.70116424560547,
+          "y1": 156.88800048828125,
+          "height": 66.18683624267578,
+          "label": "Wild-Type",
+          "dot_count": 12
+        },
+        {
+          "x0": 160.4869842529297,
+          "x1": 221.68699645996094,
+          "xc": 191.0869903564453,
+          "y0": 56.57893371582031,
+          "y1": 156.88800048828125,
+          "height": 100.30906677246094,
+          "label": "Mutant",
+          "dot_count": 12
+        }
+      ],
+      "total_dots": 24,
+      "category": "C0_consistent",
+      "is_raster_pdf": false
+    },
+    {
+      "case_id": "C0_09",
+      "ground_truth_inconsistent": false,
+      "predicted_inconsistent": false,
+      "correct": true,
+      "findings": [],
+      "bars": [
+        {
+          "x0": 161.53712463378906,
+          "x1": 204.22412109375,
+          "xc": 182.88062286376953,
+          "y0": 46.103485107421875,
+          "y1": 60.244903564453125,
+          "height": 14.14141845703125,
+          "label": "",
+          "dot_count": 6
+        }
+      ],
+      "total_dots": 12,
+      "category": "C0_consistent",
+      "is_raster_pdf": false
+    },
+    {
+      "case_id": "C1_00",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": true,
+      "correct": true,
+      "findings": [
+        "sample_size_mismatch (bar='Control' has 5 vector dots, prose claims n=10)"
+      ],
+      "bars": [
+        {
+          "x0": 49.21426010131836,
+          "x1": 110.41426086425781,
+          "xc": 79.81426048278809,
+          "y0": 82.27628326416016,
+          "y1": 156.88800048828125,
+          "height": 74.6117172241211,
+          "label": "Control",
+          "dot_count": 5
+        },
+        {
+          "x0": 160.4869842529297,
+          "x1": 221.68699645996094,
+          "xc": 191.0869903564453,
+          "y0": 46.427734375,
+          "y1": 156.88800048828125,
+          "height": 110.46026611328125,
+          "label": "Treatment",
+          "dot_count": 5
+        }
+      ],
+      "total_dots": 10,
+      "category": "C1_sample_size_mismatch",
+      "is_raster_pdf": false
+    },
+    {
+      "case_id": "C1_01",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": true,
+      "correct": true,
+      "findings": [
+        "sample_size_mismatch (bar='Vehicle' has 7 vector dots, prose claims n=10)"
+      ],
+      "bars": [
+        {
+          "x0": 49.21426010131836,
+          "x1": 110.41426086425781,
+          "xc": 79.81426048278809,
+          "y0": 88.44166564941406,
+          "y1": 156.88800048828125,
+          "height": 68.44633483886719,
+          "label": "Vehicle",
+          "dot_count": 7
+        },
+        {
+          "x0": 160.4869842529297,
+          "x1": 221.68699645996094,
+          "xc": 191.0869903564453,
+          "y0": 55.30589294433594,
+          "y1": 156.88800048828125,
+          "height": 101.58210754394531,
+          "label": "Drug X",
+          "dot_count": 7
+        }
+      ],
+      "total_dots": 14,
+      "category": "C1_sample_size_mismatch",
+      "is_raster_pdf": false
+    },
+    {
+      "case_id": "C1_02",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": false,
+      "correct": false,
+      "findings": [],
+      "bars": [],
+      "total_dots": 0,
+      "category": "C1_sample_size_mismatch",
+      "is_raster_pdf": true
+    },
+    {
+      "case_id": "C1_03",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": true,
+      "correct": true,
+      "findings": [
+        "sample_size_mismatch (bar='Wild-Type' has 5 vector dots, prose claims n=11)"
+      ],
+      "bars": [
+        {
+          "x0": 49.21426010131836,
+          "x1": 110.41426086425781,
+          "xc": 79.81426048278809,
+          "y0": 94.634765625,
+          "y1": 156.88800048828125,
+          "height": 62.25323486328125,
+          "label": "Wild-Type",
+          "dot_count": 5
+        },
+        {
+          "x0": 160.4869842529297,
+          "x1": 221.68699645996094,
+          "xc": 191.0869903564453,
+          "y0": 66.85653686523438,
+          "y1": 156.88800048828125,
+          "height": 90.03146362304688,
+          "label": "Mutant",
+          "dot_count": 5
+        }
+      ],
+      "total_dots": 10,
+      "category": "C1_sample_size_mismatch",
+      "is_raster_pdf": false
+    },
+    {
+      "case_id": "C1_04",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": true,
+      "correct": true,
+      "findings": [
+        "sample_size_mismatch (bar='Placebo' has 7 vector dots, prose claims n=11)"
+      ],
+      "bars": [
+        {
+          "x0": 49.21426010131836,
+          "x1": 110.41426086425781,
+          "xc": 79.81426048278809,
+          "y0": 85.44527435302734,
+          "y1": 156.88800048828125,
+          "height": 71.4427261352539,
+          "label": "Placebo",
+          "dot_count": 7
+        },
+        {
+          "x0": 160.4869842529297,
+          "x1": 221.68699645996094,
+          "xc": 191.0869903564453,
+          "y0": 55.999603271484375,
+          "y1": 156.88800048828125,
+          "height": 100.88839721679688,
+          "label": "Active",
+          "dot_count": 7
+        }
+      ],
+      "total_dots": 14,
+      "category": "C1_sample_size_mismatch",
+      "is_raster_pdf": false
+    },
+    {
+      "case_id": "C1_05",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": false,
+      "correct": false,
+      "findings": [],
+      "bars": [],
+      "total_dots": 0,
+      "category": "C1_sample_size_mismatch",
+      "is_raster_pdf": true
+    },
+    {
+      "case_id": "C1_06",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": true,
+      "correct": true,
+      "findings": [
+        "sample_size_mismatch (bar='Vehicle' has 7 vector dots, prose claims n=12)"
+      ],
+      "bars": [
+        {
+          "x0": 49.21426010131836,
+          "x1": 110.41426086425781,
+          "xc": 79.81426048278809,
+          "y0": 89.71186828613281,
+          "y1": 156.88800048828125,
+          "height": 67.17613220214844,
+          "label": "Vehicle",
+          "dot_count": 7
+        },
+        {
+          "x0": 160.4869842529297,
+          "x1": 221.68699645996094,
+          "xc": 191.0869903564453,
+          "y0": 60.50183868408203,
+          "y1": 156.88800048828125,
+          "height": 96.38616180419922,
+          "label": "Drug X",
+          "dot_count": 7
+        }
+      ],
+      "total_dots": 14,
+      "category": "C1_sample_size_mismatch",
+      "is_raster_pdf": false
+    },
+    {
+      "case_id": "C1_07",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": true,
+      "correct": true,
+      "findings": [
+        "sample_size_mismatch (bar='Baseline' has 5 vector dots, prose claims n=10)"
+      ],
+      "bars": [
+        {
+          "x0": 49.21426010131836,
+          "x1": 110.41426086425781,
+          "xc": 79.81426048278809,
+          "y0": 96.66400909423828,
+          "y1": 156.88800048828125,
+          "height": 60.22399139404297,
+          "label": "Baseline",
+          "dot_count": 5
+        },
+        {
+          "x0": 160.4869842529297,
+          "x1": 221.68699645996094,
+          "xc": 191.0869903564453,
+          "y0": 53.617652893066406,
+          "y1": 156.88800048828125,
+          "height": 103.27034759521484,
+          "label": "Proposed",
+          "dot_count": 5
+        }
+      ],
+      "total_dots": 10,
+      "category": "C1_sample_size_mismatch",
+      "is_raster_pdf": false
+    },
+    {
+      "case_id": "C1_08",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": false,
+      "correct": false,
+      "findings": [],
+      "bars": [],
+      "total_dots": 0,
+      "category": "C1_sample_size_mismatch",
+      "is_raster_pdf": true
+    },
+    {
+      "case_id": "C1_09",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": true,
+      "correct": true,
+      "findings": [
+        "sample_size_mismatch (bar='Placebo' has 5 vector dots, prose claims n=8)"
+      ],
+      "bars": [
+        {
+          "x0": 49.21426010131836,
+          "x1": 110.41426086425781,
+          "xc": 79.81426048278809,
+          "y0": 94.00342559814453,
+          "y1": 156.88800048828125,
+          "height": 62.88457489013672,
+          "label": "Placebo",
+          "dot_count": 5
+        },
+        {
+          "x0": 160.4869842529297,
+          "x1": 221.68699645996094,
+          "xc": 191.0869903564453,
+          "y0": 69.50498962402344,
+          "y1": 156.88800048828125,
+          "height": 87.38301086425781,
+          "label": "Active",
+          "dot_count": 5
+        }
+      ],
+      "total_dots": 10,
+      "category": "C1_sample_size_mismatch",
+      "is_raster_pdf": false
+    },
+    {
+      "case_id": "C2_00",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": true,
+      "correct": true,
+      "findings": [
+        "star_pvalue_conflict (pdf_star='***' implies p<0.001, prose says p=0.041)"
+      ],
+      "bars": [
+        {
+          "x0": 58.76113510131836,
+          "x1": 119.96113586425781,
+          "xc": 89.36113548278809,
+          "y0": 73.92073059082031,
+          "y1": 156.88800048828125,
+          "height": 82.96726989746094,
+          "label": "Control",
+          "dot_count": 0
+        },
+        {
+          "x0": 170.0338592529297,
+          "x1": 231.23387145996094,
+          "xc": 200.6338653564453,
+          "y0": 46.13435363769531,
+          "y1": 156.88800048828125,
+          "height": 110.75364685058594,
+          "label": "Treatment",
+          "dot_count": 0
+        }
+      ],
+      "total_dots": 0,
+      "category": "C2_star_pvalue_conflict",
+      "is_raster_pdf": false
+    },
+    {
+      "case_id": "C2_01",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": false,
+      "correct": false,
+      "findings": [],
+      "bars": [
+        {
+          "x0": 58.76113510131836,
+          "x1": 119.96113586425781,
+          "xc": 89.36113548278809,
+          "y0": 66.7792739868164,
+          "y1": 156.88800048828125,
+          "height": 90.10872650146484,
+          "label": "Vehicle",
+          "dot_count": 0
+        },
+        {
+          "x0": 170.0338592529297,
+          "x1": 231.23387145996094,
+          "xc": 200.6338653564453,
+          "y0": 42.92277526855469,
+          "y1": 156.88800048828125,
+          "height": 113.96522521972656,
+          "label": "Drug X",
+          "dot_count": 0
+        }
+      ],
+      "total_dots": 0,
+      "category": "C2_star_pvalue_conflict",
+      "is_raster_pdf": false
+    },
+    {
+      "case_id": "C2_02",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": true,
+      "correct": true,
+      "findings": [
+        "star_pvalue_conflict (pdf_star='**' implies p<0.01, prose says p=0.039)"
+      ],
+      "bars": [
+        {
+          "x0": 58.76113510131836,
+          "x1": 119.96113586425781,
+          "xc": 89.36113548278809,
+          "y0": 69.27671813964844,
+          "y1": 159.81417846679688,
+          "height": 90.53746032714844,
+          "label": "Baseline",
+          "dot_count": 0
+        },
+        {
+          "x0": 170.0338592529297,
+          "x1": 231.23387145996094,
+          "xc": 200.6338653564453,
+          "y0": 43.85301208496094,
+          "y1": 159.81417846679688,
+          "height": 115.96116638183594,
+          "label": "Proposed",
+          "dot_count": 0
+        }
+      ],
+      "total_dots": 0,
+      "category": "C2_star_pvalue_conflict",
+      "is_raster_pdf": false
+    },
+    {
+      "case_id": "C2_03",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": false,
+      "correct": false,
+      "findings": [],
+      "bars": [],
+      "total_dots": 0,
+      "category": "C2_star_pvalue_conflict",
+      "is_raster_pdf": true
+    },
+    {
+      "case_id": "C2_04",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": false,
+      "correct": false,
+      "findings": [],
+      "bars": [
+        {
+          "x0": 58.76113510131836,
+          "x1": 119.96113586425781,
+          "xc": 89.36113548278809,
+          "y0": 65.37612915039062,
+          "y1": 156.88800048828125,
+          "height": 91.51187133789062,
+          "label": "Placebo",
+          "dot_count": 0
+        },
+        {
+          "x0": 170.0338592529297,
+          "x1": 231.23387145996094,
+          "xc": 200.6338653564453,
+          "y0": 46.66416931152344,
+          "y1": 156.88800048828125,
+          "height": 110.22383117675781,
+          "label": "Active",
+          "dot_count": 0
+        }
+      ],
+      "total_dots": 0,
+      "category": "C2_star_pvalue_conflict",
+      "is_raster_pdf": false
+    },
+    {
+      "case_id": "C2_05",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": true,
+      "correct": true,
+      "findings": [
+        "star_pvalue_conflict (pdf_star='***' implies p<0.001, prose says p=0.041)"
+      ],
+      "bars": [
+        {
+          "x0": 58.76113510131836,
+          "x1": 119.96113586425781,
+          "xc": 89.36113548278809,
+          "y0": 71.58422088623047,
+          "y1": 156.88800048828125,
+          "height": 85.30377960205078,
+          "label": "Control",
+          "dot_count": 0
+        },
+        {
+          "x0": 170.0338592529297,
+          "x1": 231.23387145996094,
+          "xc": 200.6338653564453,
+          "y0": 43.64732360839844,
+          "y1": 156.88800048828125,
+          "height": 113.24067687988281,
+          "label": "Treatment",
+          "dot_count": 0
+        }
+      ],
+      "total_dots": 0,
+      "category": "C2_star_pvalue_conflict",
+      "is_raster_pdf": false
+    },
+    {
+      "case_id": "C2_06",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": true,
+      "correct": true,
+      "findings": [
+        "star_pvalue_conflict (pdf_star='***' implies p<0.001, prose says p=0.023)"
+      ],
+      "bars": [
+        {
+          "x0": 58.76113510131836,
+          "x1": 119.96113586425781,
+          "xc": 89.36113548278809,
+          "y0": 68.28211212158203,
+          "y1": 156.88800048828125,
+          "height": 88.60588836669922,
+          "label": "Vehicle",
+          "dot_count": 0
+        },
+        {
+          "x0": 170.0338592529297,
+          "x1": 231.23387145996094,
+          "xc": 200.6338653564453,
+          "y0": 41.01982116699219,
+          "y1": 156.88800048828125,
+          "height": 115.86817932128906,
+          "label": "Drug X",
+          "dot_count": 0
+        }
+      ],
+      "total_dots": 0,
+      "category": "C2_star_pvalue_conflict",
+      "is_raster_pdf": false
+    },
+    {
+      "case_id": "C2_07",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": false,
+      "correct": false,
+      "findings": [],
+      "bars": [],
+      "total_dots": 0,
+      "category": "C2_star_pvalue_conflict",
+      "is_raster_pdf": true
+    },
+    {
+      "case_id": "C2_08",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": true,
+      "correct": true,
+      "findings": [
+        "star_pvalue_conflict (pdf_star='***' implies p<0.001, prose says p=0.015)"
+      ],
+      "bars": [
+        {
+          "x0": 58.76113510131836,
+          "x1": 119.96113586425781,
+          "xc": 89.36113548278809,
+          "y0": 61.48467254638672,
+          "y1": 156.88800048828125,
+          "height": 95.40332794189453,
+          "label": "Wild-Type",
+          "dot_count": 0
+        },
+        {
+          "x0": 170.0338592529297,
+          "x1": 231.23387145996094,
+          "xc": 200.6338653564453,
+          "y0": 43.79740905761719,
+          "y1": 156.88800048828125,
+          "height": 113.09059143066406,
+          "label": "Mutant",
+          "dot_count": 0
+        }
+      ],
+      "total_dots": 0,
+      "category": "C2_star_pvalue_conflict",
+      "is_raster_pdf": false
+    },
+    {
+      "case_id": "C2_09",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": true,
+      "correct": true,
+      "findings": [
+        "star_pvalue_conflict (pdf_star='**' implies p<0.01, prose says p=0.048)"
+      ],
+      "bars": [
+        {
+          "x0": 58.76113510131836,
+          "x1": 119.96113586425781,
+          "xc": 89.36113548278809,
+          "y0": 72.69725036621094,
+          "y1": 159.29637145996094,
+          "height": 86.59912109375,
+          "label": "Placebo",
+          "dot_count": 0
+        },
+        {
+          "x0": 170.0338592529297,
+          "x1": 231.23387145996094,
+          "xc": 200.6338653564453,
+          "y0": 45.14112854003906,
+          "y1": 159.29637145996094,
+          "height": 114.15524291992188,
+          "label": "Active",
+          "dot_count": 0
+        }
+      ],
+      "total_dots": 0,
+      "category": "C2_star_pvalue_conflict",
+      "is_raster_pdf": false
+    },
+    {
+      "case_id": "C3_00",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": true,
+      "correct": true,
+      "findings": [
+        "truncated_yaxis_suspected (min_tick=0.78)"
+      ],
+      "bars": [],
+      "total_dots": 0,
+      "category": "C3_truncated_yaxis",
+      "is_raster_pdf": false
+    },
+    {
+      "case_id": "C3_01",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": true,
+      "correct": true,
+      "findings": [
+        "truncated_yaxis_suspected (min_tick=0.73)"
+      ],
+      "bars": [],
+      "total_dots": 0,
+      "category": "C3_truncated_yaxis",
+      "is_raster_pdf": false
+    },
+    {
+      "case_id": "C3_02",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": true,
+      "correct": true,
+      "findings": [
+        "truncated_yaxis_suspected (min_tick=0.78)"
+      ],
+      "bars": [],
+      "total_dots": 0,
+      "category": "C3_truncated_yaxis",
+      "is_raster_pdf": false
+    },
+    {
+      "case_id": "C3_03",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": false,
+      "correct": false,
+      "findings": [],
+      "bars": [],
+      "total_dots": 0,
+      "category": "C3_truncated_yaxis",
+      "is_raster_pdf": true
+    },
+    {
+      "case_id": "C3_04",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": true,
+      "correct": true,
+      "findings": [
+        "truncated_yaxis_suspected (min_tick=0.78)"
+      ],
+      "bars": [],
+      "total_dots": 0,
+      "category": "C3_truncated_yaxis",
+      "is_raster_pdf": false
+    },
+    {
+      "case_id": "C3_05",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": true,
+      "correct": true,
+      "findings": [
+        "truncated_yaxis_suspected (min_tick=83.0)"
+      ],
+      "bars": [],
+      "total_dots": 0,
+      "category": "C3_truncated_yaxis",
+      "is_raster_pdf": false
+    },
+    {
+      "case_id": "C3_06",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": true,
+      "correct": true,
+      "findings": [
+        "truncated_yaxis_suspected (min_tick=83.0)"
+      ],
+      "bars": [],
+      "total_dots": 0,
+      "category": "C3_truncated_yaxis",
+      "is_raster_pdf": false
+    },
+    {
+      "case_id": "C3_07",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": false,
+      "correct": false,
+      "findings": [],
+      "bars": [],
+      "total_dots": 0,
+      "category": "C3_truncated_yaxis",
+      "is_raster_pdf": true
+    },
+    {
+      "case_id": "C3_08",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": true,
+      "correct": true,
+      "findings": [
+        "truncated_yaxis_suspected (min_tick=0.73)"
+      ],
+      "bars": [],
+      "total_dots": 0,
+      "category": "C3_truncated_yaxis",
+      "is_raster_pdf": false
+    },
+    {
+      "case_id": "C3_09",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": true,
+      "correct": true,
+      "findings": [
+        "truncated_yaxis_suspected (min_tick=0.78)"
+      ],
+      "bars": [],
+      "total_dots": 0,
+      "category": "C3_truncated_yaxis",
+      "is_raster_pdf": false
+    },
+    {
+      "case_id": "C4_00",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": true,
+      "correct": true,
+      "findings": [
+        "missing_error_bar_definition (SD/SEM/CI not specified)"
+      ],
+      "bars": [
+        {
+          "x0": 42.85488510131836,
+          "x1": 104.05488586425781,
+          "xc": 73.45488548278809,
+          "y0": 65.3472671508789,
+          "y1": 157.03395080566406,
+          "height": 91.68668365478516,
+          "label": "Control",
+          "dot_count": 0
+        },
+        {
+          "x0": 154.1276092529297,
+          "x1": 215.32762145996094,
+          "xc": 184.7276153564453,
+          "y0": 68.7420654296875,
+          "y1": 157.03395080566406,
+          "height": 88.29188537597656,
+          "label": "Treatment",
+          "dot_count": 0
+        }
+      ],
+      "total_dots": 0,
+      "category": "C4_concealed_distribution",
+      "is_raster_pdf": false
+    },
+    {
+      "case_id": "C4_01",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": true,
+      "correct": true,
+      "findings": [
+        "missing_error_bar_definition (SD/SEM/CI not specified)"
+      ],
+      "bars": [
+        {
+          "x0": 42.85488510131836,
+          "x1": 104.05488586425781,
+          "xc": 73.45488548278809,
+          "y0": 63.581932067871094,
+          "y1": 157.03395080566406,
+          "height": 93.45201873779297,
+          "label": "Vehicle",
+          "dot_count": 0
+        },
+        {
+          "x0": 154.1276092529297,
+          "x1": 215.32762145996094,
+          "xc": 184.7276153564453,
+          "y0": 69.08047485351562,
+          "y1": 157.03395080566406,
+          "height": 87.95347595214844,
+          "label": "Drug X",
+          "dot_count": 0
+        }
+      ],
+      "total_dots": 0,
+      "category": "C4_concealed_distribution",
+      "is_raster_pdf": false
+    },
+    {
+      "case_id": "C4_02",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": true,
+      "correct": true,
+      "findings": [
+        "missing_error_bar_definition (SD/SEM/CI not specified)"
+      ],
+      "bars": [
+        {
+          "x0": 42.85488510131836,
+          "x1": 104.05488586425781,
+          "xc": 73.45488548278809,
+          "y0": 66.43043518066406,
+          "y1": 157.03395080566406,
+          "height": 90.603515625,
+          "label": "Baseline",
+          "dot_count": 0
+        },
+        {
+          "x0": 154.1276092529297,
+          "x1": 215.32762145996094,
+          "xc": 184.7276153564453,
+          "y0": 68.41584014892578,
+          "y1": 157.03395080566406,
+          "height": 88.61811065673828,
+          "label": "Proposed",
+          "dot_count": 0
+        }
+      ],
+      "total_dots": 0,
+      "category": "C4_concealed_distribution",
+      "is_raster_pdf": false
+    },
+    {
+      "case_id": "C4_03",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": true,
+      "correct": true,
+      "findings": [
+        "missing_error_bar_definition (SD/SEM/CI not specified)"
+      ],
+      "bars": [],
+      "total_dots": 0,
+      "category": "C4_concealed_distribution",
+      "is_raster_pdf": true
+    },
+    {
+      "case_id": "C4_04",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": true,
+      "correct": true,
+      "findings": [
+        "missing_error_bar_definition (SD/SEM/CI not specified)"
+      ],
+      "bars": [
+        {
+          "x0": 42.85488510131836,
+          "x1": 104.05488586425781,
+          "xc": 73.45488548278809,
+          "y0": 65.68638610839844,
+          "y1": 157.03395080566406,
+          "height": 91.34756469726562,
+          "label": "Placebo",
+          "dot_count": 0
+        },
+        {
+          "x0": 154.1276092529297,
+          "x1": 215.32762145996094,
+          "xc": 184.7276153564453,
+          "y0": 64.11327362060547,
+          "y1": 157.03395080566406,
+          "height": 92.9206771850586,
+          "label": "Active",
+          "dot_count": 0
+        }
+      ],
+      "total_dots": 0,
+      "category": "C4_concealed_distribution",
+      "is_raster_pdf": false
+    },
+    {
+      "case_id": "C4_05",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": true,
+      "correct": true,
+      "findings": [
+        "missing_error_bar_definition (SD/SEM/CI not specified)"
+      ],
+      "bars": [
+        {
+          "x0": 42.85488510131836,
+          "x1": 104.05488586425781,
+          "xc": 73.45488548278809,
+          "y0": 66.9237060546875,
+          "y1": 157.03395080566406,
+          "height": 90.11024475097656,
+          "label": "Control",
+          "dot_count": 0
+        },
+        {
+          "x0": 154.1276092529297,
+          "x1": 215.32762145996094,
+          "xc": 184.7276153564453,
+          "y0": 63.06964874267578,
+          "y1": 157.03395080566406,
+          "height": 93.96430206298828,
+          "label": "Treatment",
+          "dot_count": 0
+        }
+      ],
+      "total_dots": 0,
+      "category": "C4_concealed_distribution",
+      "is_raster_pdf": false
+    },
+    {
+      "case_id": "C4_06",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": true,
+      "correct": true,
+      "findings": [
+        "missing_error_bar_definition (SD/SEM/CI not specified)"
+      ],
+      "bars": [
+        {
+          "x0": 42.85488510131836,
+          "x1": 104.05488586425781,
+          "xc": 73.45488548278809,
+          "y0": 65.05484771728516,
+          "y1": 157.03395080566406,
+          "height": 91.9791030883789,
+          "label": "Vehicle",
+          "dot_count": 0
+        },
+        {
+          "x0": 154.1276092529297,
+          "x1": 215.32762145996094,
+          "xc": 184.7276153564453,
+          "y0": 67.95777130126953,
+          "y1": 157.03395080566406,
+          "height": 89.07617950439453,
+          "label": "Drug X",
+          "dot_count": 0
+        }
+      ],
+      "total_dots": 0,
+      "category": "C4_concealed_distribution",
+      "is_raster_pdf": false
+    },
+    {
+      "case_id": "C4_07",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": true,
+      "correct": true,
+      "findings": [
+        "missing_error_bar_definition (SD/SEM/CI not specified)"
+      ],
+      "bars": [],
+      "total_dots": 0,
+      "category": "C4_concealed_distribution",
+      "is_raster_pdf": true
+    },
+    {
+      "case_id": "C4_08",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": true,
+      "correct": true,
+      "findings": [
+        "missing_error_bar_definition (SD/SEM/CI not specified)"
+      ],
+      "bars": [
+        {
+          "x0": 42.85488510131836,
+          "x1": 104.05488586425781,
+          "xc": 73.45488548278809,
+          "y0": 65.91548919677734,
+          "y1": 157.03395080566406,
+          "height": 91.11846160888672,
+          "label": "Wild-Type",
+          "dot_count": 0
+        },
+        {
+          "x0": 154.1276092529297,
+          "x1": 215.32762145996094,
+          "xc": 184.7276153564453,
+          "y0": 65.15465545654297,
+          "y1": 157.03395080566406,
+          "height": 91.8792953491211,
+          "label": "Mutant",
+          "dot_count": 0
+        }
+      ],
+      "total_dots": 0,
+      "category": "C4_concealed_distribution",
+      "is_raster_pdf": false
+    },
+    {
+      "case_id": "C4_09",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": true,
+      "correct": true,
+      "findings": [
+        "missing_error_bar_definition (SD/SEM/CI not specified)"
+      ],
+      "bars": [
+        {
+          "x0": 42.85488510131836,
+          "x1": 104.05488586425781,
+          "xc": 73.45488548278809,
+          "y0": 65.83553314208984,
+          "y1": 157.03395080566406,
+          "height": 91.19841766357422,
+          "label": "Placebo",
+          "dot_count": 0
+        },
+        {
+          "x0": 154.1276092529297,
+          "x1": 215.32762145996094,
+          "xc": 184.7276153564453,
+          "y0": 70.14177703857422,
+          "y1": 157.03395080566406,
+          "height": 86.89217376708984,
+          "label": "Active",
+          "dot_count": 0
+        }
+      ],
+      "total_dots": 0,
+      "category": "C4_concealed_distribution",
+      "is_raster_pdf": false
+    },
+    {
+      "case_id": "C5_00",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": true,
+      "correct": true,
+      "findings": [
+        "direction_inversion (prose claims 'Treatment' > 'Control', but bar heights are 68.6 vs 115.5)"
+      ],
+      "bars": [
+        {
+          "x0": 49.21426010131836,
+          "x1": 110.41426086425781,
+          "xc": 79.81426048278809,
+          "y0": 41.39849853515625,
+          "y1": 156.88800048828125,
+          "height": 115.489501953125,
+          "label": "Control",
+          "dot_count": 0
+        },
+        {
+          "x0": 160.4869842529297,
+          "x1": 221.68699645996094,
+          "xc": 191.0869903564453,
+          "y0": 88.26406860351562,
+          "y1": 156.88800048828125,
+          "height": 68.62393188476562,
+          "label": "Treatment",
+          "dot_count": 0
+        }
+      ],
+      "total_dots": 0,
+      "category": "C5_direction_inversion",
+      "is_raster_pdf": false
+    },
+    {
+      "case_id": "C5_01",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": false,
+      "correct": false,
+      "findings": [],
+      "bars": [
+        {
+          "x0": 49.21426010131836,
+          "x1": 110.41426086425781,
+          "xc": 79.81426048278809,
+          "y0": 40.91746520996094,
+          "y1": 156.88800048828125,
+          "height": 115.97053527832031,
+          "label": "Vehicle",
+          "dot_count": 0
+        },
+        {
+          "x0": 160.4869842529297,
+          "x1": 221.68699645996094,
+          "xc": 191.0869903564453,
+          "y0": 84.298095703125,
+          "y1": 156.88800048828125,
+          "height": 72.58990478515625,
+          "label": "Drug X",
+          "dot_count": 0
+        }
+      ],
+      "total_dots": 0,
+      "category": "C5_direction_inversion",
+      "is_raster_pdf": false
+    },
+    {
+      "case_id": "C5_02",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": false,
+      "correct": false,
+      "findings": [],
+      "bars": [
+        {
+          "x0": 49.21426010131836,
+          "x1": 110.41426086425781,
+          "xc": 79.81426048278809,
+          "y0": 40.12249755859375,
+          "y1": 156.88800048828125,
+          "height": 116.7655029296875,
+          "label": "Baseline",
+          "dot_count": 0
+        },
+        {
+          "x0": 160.4869842529297,
+          "x1": 221.68699645996094,
+          "xc": 191.0869903564453,
+          "y0": 88.72383880615234,
+          "y1": 156.88800048828125,
+          "height": 68.1641616821289,
+          "label": "Proposed",
+          "dot_count": 0
+        }
+      ],
+      "total_dots": 0,
+      "category": "C5_direction_inversion",
+      "is_raster_pdf": false
+    },
+    {
+      "case_id": "C5_03",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": false,
+      "correct": false,
+      "findings": [],
+      "bars": [],
+      "total_dots": 0,
+      "category": "C5_direction_inversion",
+      "is_raster_pdf": true
+    },
+    {
+      "case_id": "C5_04",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": false,
+      "correct": false,
+      "findings": [],
+      "bars": [
+        {
+          "x0": 49.21426010131836,
+          "x1": 110.41426086425781,
+          "xc": 79.81426048278809,
+          "y0": 43.57878112792969,
+          "y1": 156.88800048828125,
+          "height": 113.30921936035156,
+          "label": "Placebo",
+          "dot_count": 0
+        },
+        {
+          "x0": 160.4869842529297,
+          "x1": 221.68699645996094,
+          "xc": 191.0869903564453,
+          "y0": 92.00233459472656,
+          "y1": 156.88800048828125,
+          "height": 64.88566589355469,
+          "label": "Active",
+          "dot_count": 0
+        }
+      ],
+      "total_dots": 0,
+      "category": "C5_direction_inversion",
+      "is_raster_pdf": false
+    },
+    {
+      "case_id": "C5_05",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": false,
+      "correct": false,
+      "findings": [],
+      "bars": [
+        {
+          "x0": 49.21426010131836,
+          "x1": 110.41426086425781,
+          "xc": 79.81426048278809,
+          "y0": 44.26361083984375,
+          "y1": 156.88800048828125,
+          "height": 112.6243896484375,
+          "label": "Control",
+          "dot_count": 0
+        },
+        {
+          "x0": 160.4869842529297,
+          "x1": 221.68699645996094,
+          "xc": 191.0869903564453,
+          "y0": 86.43048095703125,
+          "y1": 156.88800048828125,
+          "height": 70.45751953125,
+          "label": "Treatment",
+          "dot_count": 0
+        }
+      ],
+      "total_dots": 0,
+      "category": "C5_direction_inversion",
+      "is_raster_pdf": false
+    },
+    {
+      "case_id": "C5_06",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": false,
+      "correct": false,
+      "findings": [],
+      "bars": [
+        {
+          "x0": 49.21426010131836,
+          "x1": 110.41426086425781,
+          "xc": 79.81426048278809,
+          "y0": 46.379547119140625,
+          "y1": 156.88800048828125,
+          "height": 110.50845336914062,
+          "label": "Vehicle",
+          "dot_count": 0
+        },
+        {
+          "x0": 160.4869842529297,
+          "x1": 221.68699645996094,
+          "xc": 191.0869903564453,
+          "y0": 94.6501693725586,
+          "y1": 156.88800048828125,
+          "height": 62.237831115722656,
+          "label": "Drug X",
+          "dot_count": 0
+        }
+      ],
+      "total_dots": 0,
+      "category": "C5_direction_inversion",
+      "is_raster_pdf": false
+    },
+    {
+      "case_id": "C5_07",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": false,
+      "correct": false,
+      "findings": [],
+      "bars": [],
+      "total_dots": 0,
+      "category": "C5_direction_inversion",
+      "is_raster_pdf": true
+    },
+    {
+      "case_id": "C5_08",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": false,
+      "correct": false,
+      "findings": [],
+      "bars": [
+        {
+          "x0": 49.21426010131836,
+          "x1": 110.41426086425781,
+          "xc": 79.81426048278809,
+          "y0": 42.05924987792969,
+          "y1": 156.88800048828125,
+          "height": 114.82875061035156,
+          "label": "Wild-Type",
+          "dot_count": 0
+        },
+        {
+          "x0": 160.4869842529297,
+          "x1": 221.68699645996094,
+          "xc": 191.0869903564453,
+          "y0": 90.9580307006836,
+          "y1": 156.88800048828125,
+          "height": 65.92996978759766,
+          "label": "Mutant",
+          "dot_count": 0
+        }
+      ],
+      "total_dots": 0,
+      "category": "C5_direction_inversion",
+      "is_raster_pdf": false
+    },
+    {
+      "case_id": "C5_09",
+      "ground_truth_inconsistent": true,
+      "predicted_inconsistent": false,
+      "correct": false,
+      "findings": [],
+      "bars": [
+        {
+          "x0": 49.21426010131836,
+          "x1": 110.41426086425781,
+          "xc": 79.81426048278809,
+          "y0": 41.92262268066406,
+          "y1": 156.88800048828125,
+          "height": 114.96537780761719,
+          "label": "Placebo",
+          "dot_count": 0
+        },
+        {
+          "x0": 160.4869842529297,
+          "x1": 221.68699645996094,
+          "xc": 191.0869903564453,
+          "y0": 92.03587341308594,
+          "y1": 156.88800048828125,
+          "height": 64.85212707519531,
+          "label": "Active",
+          "dot_count": 0
+        }
+      ],
+      "total_dots": 0,
+      "category": "C5_direction_inversion",
+      "is_raster_pdf": false
+    }
+  ]
+}

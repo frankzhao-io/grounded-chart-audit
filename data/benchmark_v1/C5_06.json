@@ -1,0 +1,16 @@
+{
+  "case_id": "C5_06",
+  "category": "C5_direction_inversion",
+  "is_consistent": false,
+  "caption": "Figure 7. Metric comparison between Vehicle and Drug X (mean ± SD).",
+  "main_text_claim": "Switching to Drug X led to a marked increase over Vehicle.",
+  "ground_truth": {
+    "plotted_higher": "Vehicle",
+    "claimed_higher": "Drug X"
+  },
+  "is_raster_pdf": false,
+  "files": {
+    "pdf": "C5_06.pdf",
+    "png": "C5_06.png"
+  }
+}

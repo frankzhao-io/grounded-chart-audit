@@ -1,0 +1,16 @@
+{
+  "case_id": "C2_00",
+  "category": "C2_star_pvalue_conflict",
+  "is_consistent": false,
+  "caption": "Figure 1. Treatment vs Control (mean ± SD; ***).",
+  "main_text_claim": "The difference reached statistical significance (p = 0.041).",
+  "ground_truth": {
+    "star": "***",
+    "prose_p": 0.041
+  },
+  "is_raster_pdf": false,
+  "files": {
+    "pdf": "C2_00.pdf",
+    "png": "C2_00.png"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "papers_targeted": 25,
+  "total_figure_pairs": 113,
+  "track1_flagged_count": 2,
+  "flagged_cases": [
+    {
+      "paper_id": "2611.13760v1",
+      "figure_num": "2",
+      "image_file": "2611.13760v1_fig2_p18.png",
+      "findings": [
+        "missing_error_bar_definition (error bars/band mentioned without SD/SEM/CI/IQR)"
+      ],
+      "caption": "FIG 2. Simulated window errors. (a) Count RMS error of the constant estimate, uniform carry and completed- block counts against window length n, at δ = 0.02 and tolerance E = 2 (dotted). (b) Mean-square count error of the 47-bit completed-block estimator (n = 512, B = 99) against the phase u = (t −n) mod 99, with the exact curve u(99 −u)/(4 · 99). (c) Log probability RMS error of the methods in Table 4 over 32 streams, with the tolerance 0.1 dotted. Appendix D.3 gives the design and the error bars."
+    },
+    {
+      "paper_id": "2611.11796v1",
+      "figure_num": "2",
+      "image_file": "2611.11796v1_fig2_p7.png",
+      "findings": [
+        "missing_error_bar_definition (error bars/band mentioned without SD/SEM/CI/IQR)"
+      ],
+      "caption": "Figure 2: Comparison of AI agents with published spatial alignment methods under a unified evaluation har- ness. a, Coordinate error (mean absolute error, MAE; log scale) of the best basic-prompt agent run versus the best published baseline across 28 tasks with ground-truth coordinates. The dashed line indicates parity. b, Expression agreement (mean of gene-wise Pearson correlation, cosine similarity, and structural similarity) of the best agent run versus the best published method across 118 tasks, distinguishing cross-platform pairs (black) from other task families (grey). c, Percentage of tasks on which a single basic-prompt run of each model matched or outperformed the best published baseline, stratified by task family for expression agreement (left) and coordinate error (right). d, Mean percentage of the 16 reference baselines (13 published packages at their optimal configuration and 3 geomet- ric baselines) outperformed per task versus median runtime (log scale) for published packages (black), geometric baselines (open circles), and basic-prompt agent runs (colored circles; shaded region). e, Representative alignments across four tasks comparing unaligned inputs, ground-truth coordinates, the best published baseline, and the best agent solution, with MAE reported below each panel. Top, tasks where agents outperformed baselines; bottom, tasks where published baselines performed better."
+    }
+  ]
+}

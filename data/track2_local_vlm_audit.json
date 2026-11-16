@@ -1,0 +1,53 @@
+{
+  "model": "qwen2.5vl:7b",
+  "ollama_url": "http://localhost:11434/api/chat",
+  "cases_audited": 2,
+  "results": [
+    {
+      "paper_id": "2611.13760v1",
+      "figure_num": "2",
+      "image_file": "2611.13760v1_fig2_p18.png",
+      "track1_findings": [
+        "missing_error_bar_definition (error bars/band mentioned without SD/SEM/CI/IQR)"
+      ],
+      "image_dim_sent": [
+        1280,
+        958
+      ],
+      "elapsed_sec": 10.46,
+      "eval_count": 119,
+      "prompt_eval_count": 2098,
+      "vlm_result": {
+        "has_error_bars_or_bands": true,
+        "shaded_region_is_uncertainty": null,
+        "has_significance_markers": false,
+        "definition_deferred_to_appendix": true,
+        "track1_verdict": "deferred_to_other_section",
+        "reasoning": "The figure caption mentions 'Appendix D.3 gives the design and the error bars,' indicating that the statistical definitions of the error bars are deferred to an appendix. The figure itself contains error bars, but their definition is not visually present in the figure itself."
+      }
+    },
+    {
+      "paper_id": "2611.11796v1",
+      "figure_num": "2",
+      "image_file": "2611.11796v1_fig2_p7.png",
+      "track1_findings": [
+        "missing_error_bar_definition (error bars/band mentioned without SD/SEM/CI/IQR)"
+      ],
+      "image_dim_sent": [
+        1045,
+        1280
+      ],
+      "elapsed_sec": 4.84,
+      "eval_count": 131,
+      "prompt_eval_count": 2368,
+      "vlm_result": {
+        "has_error_bars_or_bands": false,
+        "shaded_region_is_uncertainty": null,
+        "has_significance_markers": false,
+        "definition_deferred_to_appendix": false,
+        "track1_verdict": "false_positive",
+        "reasoning": "The figure does not contain any visible error bars, bands, or significance markers. The caption does not mention an appendix or supplement for the definition of error bars or bands, and the 'shaded region' is not explicitly described as an uncertainty band. Therefore, the absence of these elements aligns with a 'false_positive' verdict."
+      }
+    }
+  ]
+}

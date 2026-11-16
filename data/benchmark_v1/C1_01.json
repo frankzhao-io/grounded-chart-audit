@@ -1,0 +1,16 @@
+{
+  "case_id": "C1_01",
+  "category": "C1_sample_size_mismatch",
+  "is_consistent": false,
+  "caption": "Figure 2. Comparison of Vehicle and Drug X (n = 10 per group; mean ± SD).",
+  "main_text_claim": "Each cohort included 10 independent biological replicates (n = 10).",
+  "ground_truth": {
+    "claimed_n": 10,
+    "plotted_n": 7
+  },
+  "is_raster_pdf": false,
+  "files": {
+    "pdf": "C1_01.pdf",
+    "png": "C1_01.png"
+  }
+}
