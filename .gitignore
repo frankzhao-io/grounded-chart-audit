@@ -12,3 +12,7 @@ data/biorxiv_pdfs/
 data/biorxiv_pairs/
 data/epmc_pdfs/
 data/epmc_pairs/
+
+# Private local research logs & merged HTML (kept local only)
+notes/experiment-log.md
+notes/research-report-and-log.html

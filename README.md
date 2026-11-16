@@ -57,8 +57,8 @@ Automated two-stage auditing pipeline for detecting statistical and visual incon
 ├── data/                                    # Benchmark metadata & JSON evaluation reports
 └── notes/
     ├── research-final-report.md             # Full research summary report (Traditional Chinese)
-    ├── experiment-log.md                    # Complete chronological experiment log (Exp-01..Exp-15)
-    └── research-report-and-log.html         # Self-contained HTML combining report, figures & log
+    ├── phase1-2-results-summary.md          # Phase 1-2 benchmark summary
+    └── literature-notes.md                  # Literature review notes
 ```
 
 ---
@@ -83,10 +83,9 @@ python src/08_eval_grounded_hybrid.py
 
 ---
 
-## Documentation & Logs
+## Documentation
 - **Final Report**: [notes/research-final-report.md](notes/research-final-report.md)
-- **Experiment Log (Exp-01 – Exp-15 + Roadmap)**: [notes/experiment-log.md](notes/experiment-log.md)
-- **Standalone HTML**: [notes/research-report-and-log.html](notes/research-report-and-log.html)
+- **Phase 1–2 Summary**: [notes/phase1-2-results-summary.md](notes/phase1-2-results-summary.md)
 
 ## Dependencies & Attribution
 This project builds on standard open-source libraries (`PyMuPDF`, `Pillow`, `Matplotlib`, `NumPy`, `Requests`) and evaluates open-weight (`Qwen2.5-VL-7B` via Ollama) alongside commercial (`Gemini 3.5 Flash-Lite`) VLMs. All benchmark generation, PDF vector/text auditing logic, and two-stage triage pipelines in `src/` and `tests/` are original implementations.
